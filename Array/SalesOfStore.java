@@ -19,7 +19,7 @@ public class SalesOfStore {
                 maxDayIndex = i;
             }
         }
-        
+
         System.out.println("The highest sales were on " + days[maxDayIndex] + " with " + maxSales + " sales.");
     }
 }
