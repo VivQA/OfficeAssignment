@@ -10,7 +10,7 @@ public class PasswordEncryption {
         for (int i = password.length() - 1; i >= 0; i--) {
             encryptedPassword += password.charAt(i);
         }
-
+        
         // Display result
         System.out.println("Original password: " + password);
         System.out.println("Encrypted password: " + encryptedPassword);
