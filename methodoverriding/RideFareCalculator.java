@@ -5,17 +5,14 @@ class Ride {
 
     protected double distance;
 
-    public Ride(double distance) {
-        this.distance = distance;
+    public Ride(double distance) {        this.distance = distance;
     }
-
     public double calculateFare() {
         return 0.0;
     }
 }
 
 class BasicRide extends Ride {
-
     public BasicRide(double distance) {
         super(distance);
     }
