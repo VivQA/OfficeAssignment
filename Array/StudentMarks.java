@@ -21,13 +21,13 @@ public class StudentMarks {
 
                 // Display marks and calculate total
                 for (int i = 0; i < marks.length; i++) {
-                    int total = 0;
-                    System.out.print("S" + (i + 1) + "\t\t");
-                    for (int j = 0; j < marks[i].length; j++) {
-                        System.out.print(marks[i][j] + "\t\t");
-                        total += marks[i][j];
-                    }
-                    System.out.println(total);
+//                    int total = 0;
+//                    System.out.print("S" + (i + 1) + "\t\t");
+//                    for (int j = 0; j < marks[i].length; j++) {
+//                        System.out.print(marks[i][j] + "\t\t");
+//                        total += marks[i][j];
+//                    }
+                    //System.out.println(total);
                 }
             }
         }
